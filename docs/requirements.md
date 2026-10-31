@@ -175,6 +175,27 @@ The website should provide a footer containing appropriate site identity, naviga
 - Footer links function correctly.
 - Footer content remains legible at mobile widths.
 
+### FR-08 — Visual Identity and Computational Design
+
+**Priority:** Must have
+
+The website shall implement the Graphite & Ember design system, combining neutral graphite surfaces, vibrant amber/orange accents, technical minimalism, and restrained computational visuals.
+
+The authoritative visual specification is `docs/design.md`.
+
+**Acceptance criteria:**
+
+- The implementation uses the approved Graphite & Ember color tokens.
+- Primary and supporting text satisfy applicable WCAG 2.2 AA contrast requirements.
+- Primary buttons use dark text on amber backgrounds.
+- Links, controls, and keyboard focus indicators are visually distinguishable.
+- Essential interface boundaries and meaningful graphics satisfy applicable non-text contrast requirements.
+- The hero includes a responsive computational visual consistent with the approved palette.
+- Decorative graphics do not obscure content or interfere with accessibility.
+- The website remains usable without JavaScript.
+- No additional accent colors, graphics libraries, or animation systems are introduced without approval.
+- The rendered design is reviewed at the required viewport widths.
+
 ## 6. Nonfunctional Requirements
 
 ### NFR-01 — Responsive Design
@@ -323,7 +344,7 @@ The following decisions remain unresolved and must be settled before their depen
 
 | ID | Decision | Status |
 |---|---|---|
-| DEC-01 | Visual identity, color palette, and typography | Open |
+| DEC-01 | Visual identity and design direction | Approved: Graphite & Ember palette with technical minimalism and restrained computational visuals. Implementation pending. See `docs/design.md`. |
 | DEC-02 | Final professional headline and introductory copy | Open |
 | DEC-03 | Initial portfolio projects and approved descriptions | Open |
 | DEC-04 | Professional profile URLs | Open |
