@@ -165,6 +165,41 @@ For significant architectural decisions, document:
 
 Do not update documentation merely to create the appearance of progress.
 
+### Documentation Synchronization
+
+Documentation is part of the implementation, not an optional follow-up.
+
+For every development task:
+
+1. Review relevant documentation before making changes.
+2. Identify documentation that is inaccurate, outdated, incomplete, or inconsistent with the approved implementation.
+3. Include proposed documentation updates in the implementation plan.
+4. Update affected documentation within the approved task scope.
+5. Verify that updated documentation accurately reflects the resulting repository state.
+6. Summarize documentation changes in the final implementation report.
+
+#### Update Policy
+
+- `README.md`: Update project status, actual repository structure, development instructions, and completed capabilities when they materially change.
+- `docs/requirements.md`: Update requirement status or traceability when appropriate. Do not change approved requirements or acceptance criteria without human approval.
+- `docs/design.md`: Record approved design refinements and implementation decisions. Do not silently revise approved design specifications to accommodate implementation deviations.
+- `docs/architecture.md`: Keep implementation descriptions and repository structure accurate. Obtain approval before changing architectural decisions.
+- `docs/decisions/`: Propose decision records for significant architectural changes or trade-offs.
+- `AGENTS.md`: Do not modify agent permissions, operating rules, or approval boundaries without explicit authorization.
+
+#### Documentation Integrity
+
+- Distinguish planned, implemented, tested, and deployed functionality.
+- Do not mark requirements complete based solely on the presence of code.
+- Do not describe tests as passed unless the results were observed.
+- Do not change specifications merely to justify an implementation.
+- Preserve the history and rationale of important decisions.
+- Do not make unrelated documentation changes outside the approved task scope.
+
+If documentation is inconsistent but correcting it requires a decision outside the task scope, report the inconsistency and request approval instead of modifying it.
+
+A task's Definition of Done includes checking whether relevant documentation remains accurate.
+
 ## 7. Agent Autonomy and Approval Boundaries
 
 Agents may, within an approved task:
