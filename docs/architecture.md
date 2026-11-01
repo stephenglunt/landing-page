@@ -1,7 +1,7 @@
 # Inverting Entropy — System Architecture
 
 **Version:** 0.1.0
-**Status:** Proposed — implementation pending
+**Status:** Architecture documented — HTML foundation and initial content implemented; visual implementation pending
 **Project:** Inverting Entropy
 **Related documents:** `README.md`, `AGENTS.md`, `docs/requirements.md`, `docs/design.md`
 
@@ -339,7 +339,7 @@ Use Python's standard-library HTTP server:
 python3 -m http.server 8000
 ```
 
-Run the command from the repository root after `index.html` has been created.
+Run the command from the repository root to preview the existing `index.html`.
 
 Open:
 
@@ -527,4 +527,4 @@ The architecture is ready for implementation when:
 - Security and approval boundaries are established.
 - Any deviations from the approved requirements are resolved.
 
-**Current status:** Architecture documented; implementation and deployment have not begun.
+**Current status:** Semantic HTML foundation approved; initial professional content implemented for review. Styling, computational artwork, full browser/accessibility/performance verification, and deployment remain pending. Architectural decisions are unchanged.

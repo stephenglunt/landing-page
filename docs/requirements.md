@@ -340,14 +340,14 @@ The MVP is ready for release when:
 
 ## 10. Open Decisions
 
-The following decisions remain unresolved and must be settled before their dependent implementation tasks:
+The following table tracks resolved content decisions and remaining decisions. Approval of content does not establish requirement completion or deployment readiness.
 
 | ID | Decision | Status |
 |---|---|---|
 | DEC-01 | Visual identity and design direction | Approved: Graphite & Ember palette with technical minimalism and restrained computational visuals. Implementation pending. See `docs/design.md`. |
-| DEC-02 | Final professional headline and introductory copy | Open |
-| DEC-03 | Initial portfolio projects and approved descriptions | Open |
-| DEC-04 | Professional profile URLs | Open |
+| DEC-02 | Final professional headline and introductory copy | Initial copy authorized and implemented; Data Scientist and AI/ML Engineer positioning and Air Force service approved. Rendered review pending. |
+| DEC-03 | Initial portfolio projects and approved descriptions | Five professional summaries authorized for initial implementation, with employer and lifecycle status; numerical results omitted. Financial-document project deferred. |
+| DEC-04 | Professional profile URLs | GitHub and LinkedIn approved and included; live destination availability unverified. |
 | DEC-05 | Contact mechanism | Open |
 | DEC-06 | Production domain and DNS configuration | Open |
 | DEC-07 | Whether the initial design includes a portrait or other imagery | Open |

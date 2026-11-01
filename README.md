@@ -48,7 +48,7 @@ The initial implementation will favor native web technologies over a framework. 
 
 ## Project Status
 
-**Current phase:** HTML foundation implemented; portfolio implementation in progress.
+**Current phase:** HTML foundation approved; initial professional content implemented for review.
 
 Documentation established:
 - `AGENTS.md` defines agent instructions and approval boundaries.
@@ -56,19 +56,28 @@ Documentation established:
 - `docs/design.md` specifies Graphite & Ember, with an approved palette and final visual review pending.
 - `docs/architecture.md` describes the proposed static architecture and root-level website layout.
 
-Implemented, awaiting human review:
+Implemented (HTML foundation approved; content updates awaiting review):
 - Root-level `index.html` with semantic landmarks, section headings, a visible skip link, and internal navigation.
-- Hero, background, skills, projects, contact, and footer regions using clearly labeled development placeholders where content approval is pending.
-- Core content and links are written directly in HTML without JavaScript or external resources.
+- Professional introduction, Air Force background, categorized skills, and five professional project summaries with employer and explicit lifecycle status.
+- Approved GitHub and LinkedIn profile links; direct contact remains a labeled development placeholder.
+- Core content and links are written directly in HTML without JavaScript or remote assets. Professional profile links navigate externally only when followed.
 
 Not yet implemented or deployed:
 - Graphite & Ember styling, responsive layout treatment, and computational artwork.
-- Approved professional copy, skills, project entries, profile URLs, and a working contact mechanism.
+- A selected direct contact mechanism.
 - Full browser, accessibility, and performance verification and appropriate automated checks.
 - GitHub Pages publishing, custom-domain configuration, and production HTTPS verification.
 - Dedicated agent workflow documentation and architectural decision records when needed.
 
 The HTML foundation does not establish MVP completion or release readiness. Deployment has not been performed as part of this work.
+
+## Content decisions and remaining review
+
+The initial content reflects the résumé and subsequent author clarifications. Project summaries describe professional work at Celestar Holdings LLC; they distinguish prototypes, operational use, ongoing development, and completed migration work. Numerical performance claims are omitted. Document-type classification uses DistilBERT; classification-marking parsing and roll-up is a separate Python workflow that reads existing markings.
+
+Handwritten-form descriptions use generic terms and omit document-specific identifiers. The blank-field classifier architecture remains unspecified. The classification-marking project does not claim an OCR method or evaluation procedure, which have not been established. The financial-document project is deferred until its details are reviewed. No project repository or demonstration links have been supplied or verified.
+
+The résumé is temporary drafting material and is not linked from the page. The author plans to remove it; it must be excluded from any future public release. No phone number, email address, location, clearance status, or résumé download has been added to the website. Profile URLs are approved but their live availability has not been verified.
 
 ## Repository Structure
 
@@ -84,7 +93,8 @@ Current files:
 └── docs/
     ├── requirements.md
     ├── design.md
-    └── architecture.md
+    ├── architecture.md
+    └── resume.txt          # Temporary source material; not a website download
 ```
 
 The root-level entry point follows `docs/architecture.md`. Planned additions, created only when needed and approved, include:
