@@ -379,9 +379,9 @@ Before implementation is considered complete:
 
 | ID | Decision | Status |
 |---|---|---|
-| DES-01 | Final hero headline and supporting copy | Open |
+| DES-01 | Final hero headline and supporting copy | Initial copy implemented: “Turning complex data into useful systems.” with Data Scientist and AI/ML Engineer positioning. Rendered review pending. |
 | DES-02 | Exact computational SVG composition | Open |
-| DES-03 | Project card content and presentation | Open |
+| DES-03 | Project card content and presentation | Five professional summaries implemented with employer beneath each heading and explicit status. Visual presentation remains open. |
 | DES-04 | Use of portrait or personal photography | Open |
 | DES-05 | Final mobile navigation treatment | Open |
 

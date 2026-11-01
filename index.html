@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Data science, applied AI, and data engineering: selected professional work and engineering experience from an Air Force veteran.">
+    <title>Inverting Entropy | Data Scientist and AI/ML Engineer</title>
+  </head>
+  <body>
+    <a href="#main">Skip to content</a>
+
+    <header>
+      <p><a href="#home">Inverting Entropy</a></p>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section id="home">
+        <p>Data Scientist and AI/ML Engineer</p>
+        <h1>Turning complex data into useful systems.</h1>
+        <p>I build document-processing workflows, automate analytical tasks, and transform fragmented data into structured information. Inverting Entropy showcases my work across applied AI, machine learning, and data engineering.</p>
+        <p><a href="#projects">View Projects</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </section>
+
+      <section id="about">
+        <h2>Professional Background</h2>
+        <p>My background combines Air Force service, analytical work, and software development. That experience shapes how I approach engineering: understand the user’s problem, identify the important decisions, and build reliable tools that support them.</p>
+        <p>My work includes combining OCR and machine learning to extract information from documents, developing Python pipelines for data transformation, and automating reporting workflows. I bring analytical thinking, stakeholder collaboration, and attention to data quality to problems shaped by practical constraints.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <h3>Programming</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>Swift</li>
+          <li>SQL</li>
+        </ul>
+        <h3>Applied AI and machine learning</h3>
+        <ul>
+          <li>scikit-learn, FastAI, DistilBERT, YOLO</li>
+          <li>Computer vision, classification, model training and evaluation</li>
+        </ul>
+        <h3>Document processing</h3>
+        <ul>
+          <li>LightOnOCR, Tesseract OCR</li>
+          <li>Document classification, field extraction, blank-field detection</li>
+        </ul>
+        <h3>Data engineering</h3>
+        <ul>
+          <li>ETL, data transformation and normalization, data validation</li>
+          <li>Web scraping, REST API integration, JSON</li>
+          <li>PostgreSQL, MongoDB</li>
+        </ul>
+        <h3>Analysis and visualization</h3>
+        <ul>
+          <li>Pandas, NumPy, Jupyter Notebooks</li>
+          <li>Matplotlib, Seaborn, Excel</li>
+        </ul>
+        <h3>Workflow automation</h3>
+        <ul>
+          <li>Requests, BeautifulSoup, python-docx</li>
+          <li>Automated reporting</li>
+        </ul>
+        <h3>Software engineering</h3>
+        <ul>
+          <li>Object-oriented design, data structures and algorithms</li>
+          <li>Unit testing, test-driven development, JUnit</li>
+        </ul>
+        <h3>Development tools and web technologies</h3>
+        <ul>
+          <li>Git, Docker, Linux, VS Code</li>
+          <li>Maven, Gradle, HTML, CSS, Node.js</li>
+        </ul>
+        <h3>Supporting experience</h3>
+        <ul>
+          <li>AWS cloud concepts and distributed-system fundamentals</li>
+          <li>Salesforce reporting and dashboards</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <p>Selected professional work in document processing, workflow automation, and data engineering.</p>
+        <article>
+          <h3>Handwritten Form Extraction</h3>
+          <p>Celestar Holdings LLC</p>
+          <p><strong>Status:</strong> Prototype / proof of concept</p>
+          <p>Built a document-processing prototype to extract selected fields from scanned handwritten forms. Conventional OCR struggled with handwriting and scan quality, while full-document processing with LightOnOCR was too slow on the available hardware.</p>
+          <p>I annotated sample forms and trained a YOLO model to locate relevant fields, allowing LightOnOCR to process targeted regions. I also trained a blank-field classifier to prevent extraction attempts on empty fields, addressing a source of hallucinated content. I developed and evaluated the orchestration connecting these components.</p>
+          <p>The workflow substantially reduced processing time and supported operational objectives. It remained a proof of concept and was not incorporated into standard operations.</p>
+        </article>
+        <article>
+          <h3>Automated Memo Preparation</h3>
+          <p>Celestar Holdings LLC</p>
+          <p><strong>Status:</strong> In development / operational use</p>
+          <p>Built a Python workflow to automate memo preparation from information spread across multiple pages of an internal website. Manual copying was time-consuming and introduced errors and inconsistencies.</p>
+          <p>Using Requests sessions and BeautifulSoup, I implemented authenticated navigation, filtering, and data extraction through an authorized account. I created memo templates and populated them with python-docx, adding checks for missing data, standardized date formatting, and “N/A” values where requested by project officers.</p>
+          <p>I developed the entire workflow. It substantially reduced preparation time, standardized memo content, and improved accuracy. It is used operationally while development continues.</p>
+        </article>
+        <article>
+          <h3>Legacy Data Migration</h3>
+          <p>Celestar Holdings LLC</p>
+          <p><strong>Status:</strong> Data migration completed</p>
+          <p>Extracted, cleaned, and transformed decades of manually entered Microsoft Access data for migration to PostgreSQL ahead of the legacy server’s decommissioning.</p>
+          <p>I brought customer stakeholders and the development team together to clarify data relationships and establish a draft database structure. As database engineers refined the schema, I provided feedback and corrections to keep it aligned with the underlying data.</p>
+          <p>Using Pandas, I addressed duplicates and inconsistent formats. Before handing off the transformed data, I instantiated PostgreSQL with the team’s current schema and imported the tables to verify compatibility. The data was successfully cleaned, transformed, and loaded.</p>
+        </article>
+        <article>
+          <h3>Document-Type Classification</h3>
+          <p>Celestar Holdings LLC</p>
+          <p><strong>Status:</strong> Prototype / further development planned</p>
+          <p>Built a document-classification prototype to help organize vendor documentation across a customer’s operational files. Existing spreadsheet-based tracking had become inaccurate and outdated, making it difficult to establish which required documents were available.</p>
+          <p>I used Tesseract OCR for documents without extractable text and trained a DistilBERT model to categorize documents by their textual content. I developed the entire prototype and evaluated classification performance using accuracy, F1, and a confusion matrix.</p>
+          <p>The prototype demonstrated an approach to document categorization but has not been operationalized. Further development and use are planned.</p>
+        </article>
+        <article>
+          <h3>Classification Marking Parsing and Roll-Up</h3>
+          <p>Celestar Holdings LLC</p>
+          <p><strong>Status:</strong> Operational use / not standardized</p>
+          <p>Developed Python classification parsing and roll-up logic to support document uploads. The application required an access-control dictionary before accepting each document.</p>
+          <p>My program identified existing classification banner lines and portion markings and assembled the access-control dictionary required by the application.</p>
+          <p>The tool has been used operationally but has not become a standardized tool.</p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Professional Links and Contact</h2>
+        <ul>
+          <li><a href="https://github.com/stephenglunt">GitHub profile</a></li>
+          <li><a href="https://www.linkedin.com/in/stephen-glunt-ts-sci-python-ml-java-js-swift-japanese-korean/">LinkedIn profile</a></li>
+        </ul>
+        <p>Development placeholder: a direct contact mechanism has not yet been selected.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Inverting Entropy</p>
+    </footer>
+  </body>
+</html>
